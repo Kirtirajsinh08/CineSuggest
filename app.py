@@ -32,7 +32,7 @@ movies = pd.DataFrame(dictionary_of_movies)
 
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
-st.markdown('### CineMatch - A Personalised Movie Recommender🍿')
+st.markdown('### CineSuggest - A Personalised Movie Recommender🍿')
 
 selected_movie_name = st.selectbox(
     'Select the last movie you saw', movies['title'].values
